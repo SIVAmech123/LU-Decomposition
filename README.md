@@ -36,6 +36,19 @@ print(L)
 
 print(u)
 ```
+```
+'''Program to solve a matrix using LU decomposition.
+Developed by:R.sivakumar 
+RegisterNumber: 23013501
+'''
+import numpy as np
+from scipy.linalg import lu
+a=np.array(eval(input()))
+p,L,u=lu(a)
+B=np.array([4,5,7])
+x=np.linalg.solve(a,B.T)
+print(x)
+```
 
 ## Output:
 <img width="578" alt="Screenshot 2024-04-06 133315" src="https://github.com/SIVAmech123/LU-Decomposition/assets/151629067/1e1fc889-f206-4f1c-8711-0d9396b3497b">
